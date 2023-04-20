@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Простой редактор текста</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script type="text/javascript" src="./FileSaver.js-master/dist/FileSaver.min.js"></script>
+  </head>
+  <body>
+     <nav>
+    <ul>
+      <li><a href="#">File</a>
+        <ul>
+          <li><a href="#" id="save">Save as</a></li>
+          <li><a href="#" id="open">Open file</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+    <div class="editor">
+      <textarea id="text-area"></textarea>
+      <div class="buttons">
+        <button id="bold">Жирный</button>
+        <button id="italic">Курсив</button>
+        <button id="underline">Подчеркнутый</button>
+      </div>
+    </div>
+    <script type="text/javascript" src="./js/script.js"></script>
+  </body>
+</html>
